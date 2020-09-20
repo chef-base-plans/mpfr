@@ -1,6 +1,6 @@
 pkg_name=mpfr
 pkg_origin=core
-pkg_version=4.1.0
+pkg_version=4.0.1
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 GNU MPFR (GNU Multiple Precision Floating-Point Reliably) is a GNU portable \
@@ -10,7 +10,7 @@ correct rounding, based on GNU Multi-Precision Library.\
 pkg_upstream_url="http://www.mpfr.org/"
 pkg_license=('LGPL-3.0-or-later')
 pkg_source="http://www.mpfr.org/${pkg_name}-${pkg_version}/${pkg_name}-${pkg_version}.tar.xz"
-pkg_shasum="0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
+pkg_shasum="67874a60826303ee2fb6affc6dc0ddd3e749e9bfcb4c8655e3953d0458a6e16e"
 pkg_deps=(
   core/glibc
   core/gmp
